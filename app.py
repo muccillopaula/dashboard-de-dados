@@ -13,10 +13,7 @@ st.write("""
 Este dashboard tem como objetivo analisar as multas vencidas e não pagas registradas na base de dados, destacando as infrações mais recorrentes e os tipos de veículos com maior participação nas ocorrências.
 """)
 
-arquivo = st.file_uploader(
-    "Envie um arquivo CSV",
-    type=["csv"]
-)
+arquivo = "multas_vencidas_nao_pagas.csv"
 
 if arquivo is not None:
 
